@@ -1,0 +1,30 @@
+.footer {
+  border-top: 1px solid black;
+}
+
+.footer-icons {
+  font-size: 50px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.footer-icons > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 15px;
+}
+
+.footer-icons > ul {
+  padding-left: 0px;
+}
+
+.footer-icons > ul > li > a {
+  color: darkgray;
+}
+
+.footer-closing {
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
