@@ -28,15 +28,46 @@
   height: 340px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
 }
 
 .card:hover {
-  width: 310px;
-  height: 350px;
+  width: 301px;
+  height: 341px;
 }
 
 .card > img {
   width: 100px;
+}
+
+.card-btn {
+  display: inline-block;
+  font-size: small;
+  border-radius: 30px;
+  transition-duration: .3s;
+  border: 1px solid grey;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  padding: 18px 18px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #CF9FFF;
+}
+
+.card-btn > a {
+  color: black;
+}
+
+.card-btn:hover {
+  padding: 18.5px 18.5px;
+  bottom: 11px;
+  background-color: darkgrey;
+  transition: ease-in 0.1s;
 }
 
 @media (max-width: 1400px) {
